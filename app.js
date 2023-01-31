@@ -8,7 +8,7 @@ const nosotrosRoute = require('./routes/nosotrosRoute')
 const franquiciasRoute = require('./routes/franquiciasRoute')
 const facturacionRoute = require('./routes/facturacionRoute')
 const atencionRoute = require('./routes/atencionRoute')
-const PORT = 3000 || process.env.PORT
+const PORT = process.env.PORT || 3000
 
 app.set('view engine', 'ejs')
 
