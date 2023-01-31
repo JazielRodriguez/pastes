@@ -1,0 +1,29 @@
+.header {
+  background: #cb2229;
+  padding: 2rem;
+  color: #fff;
+}
+.header h1 {
+  font-size: 4.2rem;
+}
+.header a {
+  font-size: 2rem;
+  color: #fff;
+}
+.header a:hover {
+  color: #861a1e;
+}
+.active-link {
+  text-decoration: underline;
+}
+.header-content {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.nav {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 1.4rem;
+}
