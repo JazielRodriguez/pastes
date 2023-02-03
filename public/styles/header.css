@@ -1,6 +1,12 @@
 .header {
   background: #cb2229;
-  padding: 2rem;
+  display: flex;
+  align-items: center;
+  height: 14vh;
+  width: 100%;
+  position: fixed;
+  top: 0;
+  left: 0;
   color: #fff;
 }
 .header h1 {

@@ -2,9 +2,16 @@
 <html lang="es">
   <head>
     <%- include('./components/rootHead.ejs') %>
+    <link rel="stylesheet" href="/styles/intro.css" />
     <title>Pastes</title>
   </head>
   <body>
-    <%- include('./components/header.ejs') %>
+    <%- include('./components/header.ejs') %> <%-
+    include('./components/intro.ejs') %>
+
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <script>
+      AOS.init()
+    </script>
   </body>
 </html>

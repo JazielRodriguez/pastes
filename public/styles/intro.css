@@ -1,0 +1,22 @@
+.legend {
+  height: 86vh;
+  display: flex;
+}
+.legend div {
+  width: 50%;
+}
+.legend div:last-child {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.legend-dif {
+  background-color: #e6c343;
+}
+.legend-special {
+  font-style: italic;
+  font-weight: 400;
+}
+.waves-container {
+  width: 100%;
+}
